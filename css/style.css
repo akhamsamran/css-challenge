@@ -29,6 +29,13 @@ header {
 	text-align: center;
 }
 
+.instructions-wrapper {
+	border: 3px solid black;
+	padding-left: 2rem;
+	padding-top: 1rem;
+	padding-right: 2rem;
+	padding-bottom: 2rem;
+}
 
 .container {
 	margin: 0 auto;
