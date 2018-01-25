@@ -13,14 +13,14 @@ html, body {
 /*header styles*/
 header {
 	background-color: #343534;
-	color: lawngreen;
+	color: #00DC00;
 	display: table;
 	vertical-align: bottom;
 	width: 100%;
 	padding-left: 5%;
 }
-/*this is the class ".em" for the sub title in the header*/
-.em {
+/*this is the class ".subtitle" for the sub title in the header*/
+.subtitle {
 	font-size: 1rem;
 	/*line-height: 1.5;*/
 }
@@ -28,19 +28,23 @@ header {
 .welcome {
 	text-align: center;
 }
-
+/*this is a class for the wrapper of the instructions*/
 .instructions-wrapper {
 	border: 3px solid black;
 	padding-left: 2rem;
 	padding-top: 1rem;
 	padding-right: 2rem;
 	padding-bottom: 2rem;
+	display: inline-flex;
+}
+.instructions-wrapper > img {
+	float: right;
 }
 
 .container {
 	margin: 0 auto;
 	padding: 0 2rem;
-	background-color: rgb(3F3737);
+
 }
 
 .clearfix {
