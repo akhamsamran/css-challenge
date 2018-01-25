@@ -17,9 +17,9 @@ header {
 	display: table;
 	vertical-align: bottom;
 	width: 100%;
+	padding-left: 5%;
 }
-
-
+/*this is the class ".em" for the sub title in the header*/
 .em {
 	font-size: 1rem;
 	/*line-height: 1.5;*/
