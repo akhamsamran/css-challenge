@@ -14,10 +14,17 @@ html, body {
 header {
 	background-color: dimgray;
 	color: lawngreen;
+	display: table;
+	vertical-align: bottom;
+	width: 100%;
 }
-h1 {
 
+
+.em {
+	font-size: 1rem;
+	/*line-height: 1.5;*/
 }
+
 
 .container {
 	margin: 0 auto;
