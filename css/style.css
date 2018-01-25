@@ -38,6 +38,14 @@ header {
 .instructions-wrapper > img {
 	float: right;
 }
+/*about me class*/
+.about-me {
+	background-color: #1406CB;
+	margin-top: 5rem;
+}
+
+
+
 
 .container {
 	margin: 0 auto;
