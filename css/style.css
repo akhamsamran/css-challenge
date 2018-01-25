@@ -12,7 +12,7 @@ html, body {
 }
 /*header styles*/
 header {
-	background-color: dimgray;
+	background-color: #343534;
 	color: lawngreen;
 	display: table;
 	vertical-align: bottom;
