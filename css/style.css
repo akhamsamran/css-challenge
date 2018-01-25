@@ -9,10 +9,14 @@ html, body {
 	margin: 0;
 	box-sizing: border-box;
 }
+header {
+	background-color: dimgray;
+}
 
 .container {
 	margin: 0 auto;
 	padding: 0 2rem;
+	background-color: rgb(3F3737);
 }
 
 .clearfix {
