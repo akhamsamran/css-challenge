@@ -31,12 +31,10 @@ header {
 /*this is a class for the wrapper of the instructions*/
 .instructions-wrapper {
 	border: 3px solid black;
-	padding-left: 2rem;
-	padding-top: 1rem;
-	padding-right: 2rem;
-	padding-bottom: 2rem;
+	padding: 1.5rem;
 	display: inline-flex;
 }
+/*this is supposed to only affect the image of the instructions-wrapper*/
 .instructions-wrapper > img {
 	float: right;
 }
