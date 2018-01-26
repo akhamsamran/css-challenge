@@ -42,8 +42,9 @@ header {
 .about-me {
 	background-color: #1915F7;
 	margin-top: 5rem;
-	padding: 3rem;
+	padding: 2rem;
 	align-content: center;
+	color: white;
 }
 /*about-me image*/
 img[alt="captain picard"] {
