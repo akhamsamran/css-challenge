@@ -16,8 +16,6 @@ html, body {
 .container {
 	margin: 0 auto;
 	padding: 0 2rem;
-	align-self: center;
-
 }
 
 .clearfix {
@@ -76,6 +74,7 @@ header {
 	vertical-align: bottom;
 	width: 100%;
 	padding-left: 5%;
+	text-align: left;
 }
 /*this is the class ".subtitle" for the sub title in the header*/
 .subtitle {
@@ -97,6 +96,7 @@ h1 > span {
 	display: inline-flex;
 	width: 75%;
 	margin: 0 auto;
+	text-align:left;
 }
 /*this is supposed to only affect the image of the instructions-wrapper*/
 .instructions-wrapper > img {
@@ -108,6 +108,7 @@ h1 > span {
 	margin-top: 5rem;
 	padding: 2rem;
 	color: white;
+	text-align:left;
 }
 /*last line of about me in yellow*/
 span {
@@ -134,18 +135,17 @@ tr {
 	background-color: #282825;
 	color: #00DC00;
 	text-align: left;
-
 }
-
 th {
 	padding: 1rem;
 }
 td {
 	padding: 1rem;
 }
-
 table {
 	width: 100%;
-
-
+}
+/*for  contact me*/
+.contact {
+	text-align: left;
 }
