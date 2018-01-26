@@ -131,11 +131,14 @@ tr {
 	background-color: #282825;
 	color: #00DC00;
 	text-align: left;
-	padding: 5rem;
+
 }
 
 th {
-	padding: 2rem;
+	padding: 1rem;
+}
+td {
+	padding: 1rem;
 }
 
 table {
