@@ -81,6 +81,10 @@ header {
 	font-size: 1rem;
 	/*line-height: 1.5;*/
 }
+/*set color for subtitle to green*/
+h1 > span {
+	color: #00DC00;
+}
 /*this is the class for the rainbow welcome banner*/
 .welcome {
 	text-align: center;
