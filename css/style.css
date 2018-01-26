@@ -46,6 +46,9 @@ header {
 	align-content: center;
 	color: white;
 }
+span {
+	color: yellow;
+}
 /*about-me image*/
 img[alt="captain picard"] {
 	float: left;
