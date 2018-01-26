@@ -34,9 +34,8 @@ header {
 	padding: 3rem;
 	display: inline-flex;
 	align-self: center;
+	margin: auto;
 
-	margin-right: 50%;
-	transform: translate(50%, 50%) }
 }
 /*this is supposed to only affect the image of the instructions-wrapper*/
 .instructions-wrapper > img {
@@ -49,6 +48,8 @@ header {
 	padding: 2rem;
 	align-content: center;
 	color: white;
+	align-self: center;
+;
 }
 /*last line of about me in yellow*/
 span {
