@@ -73,7 +73,7 @@ header, .contact {
 	display: table;
 	vertical-align: bottom;
 	width: 100%;
-	padding-left: 5%;
+	padding-left: 10%;
 	text-align: left;
 }
 /*this is the class ".subtitle" for the sub title in the header*/
@@ -107,9 +107,11 @@ h1 > span {
 .about-me {
 	background-color: #1915F7;
 	margin-top: 5rem;
-	padding: 2rem;
 	color: white;
-	text-align:left;
+	text-align: left;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	padding-right: 10rem;
 }
 /*last line of about me in yellow*/
 span {
@@ -122,7 +124,8 @@ img[alt="captain picard"] {
 	float: left;
 	border: .3rem solid white;
 	width: 20rem;
-	margin: 2rem;
+	margin-left: 12.5%;
+	margin-right: 3rem;
 }
 
 
