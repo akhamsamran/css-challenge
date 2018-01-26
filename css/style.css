@@ -46,15 +46,12 @@ header {
 	align-content: center;
 }
 /*about-me image*/
- {
+img[alt="captain picard"] {
 	float: left;
 	border: .3rem solid white;
-	width: 20%;
-
-
+	width: 20rem;
+	margin: 2rem;
 }
-
-
 
 
 .container {
