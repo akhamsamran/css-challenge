@@ -47,7 +47,9 @@ header {
 	color: white;
 }
 span {
-	color: yellow;
+	color: #FFD716;
+	font-weight: bold;
+	text-shadow: 1px 1px 2px black;
 }
 /*about-me image*/
 img[alt="captain picard"] {
