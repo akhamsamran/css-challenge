@@ -31,8 +31,9 @@ header {
 /*this is a class for the wrapper of the instructions*/
 .instructions-wrapper {
 	border: 3px solid black;
-	padding: 1.5rem;
+	padding: 3rem;
 	display: inline-flex;
+	align-self: center;
 }
 /*this is supposed to only affect the image of the instructions-wrapper*/
 .instructions-wrapper > img {
@@ -60,17 +61,24 @@ img[alt="captain picard"] {
 	margin: 2rem;
 }
 
+
+/*aligns first line of professional skillz to right*/
+.professional-skillz > div > h2 {
+	text-align: right;
+}
 /*table of professional skillz*/
 tr {
 	background-color: #282825;
 	color: #00DC00;
 	text-align: left;
-}
-.professional-skillz > div > h2 {
-	text-align: right;
-}
+th {
 
-
+}
+}
+table {
+	width: 100%;
+	padding: 2em;
+}
 
 .container {
 	margin: 0 auto;
