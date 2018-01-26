@@ -63,7 +63,10 @@ img[alt="captain picard"] {
 /*table of professional skillz*/
 tr {
 	background-color: #282825;
-	color: #343534;
+	color: #00DC00;
+}
+h2[Skillz]{
+	align: left;
 }
 
 
