@@ -46,6 +46,7 @@ header {
 	align-content: center;
 	color: white;
 }
+/*last line of about me in yellow*/
 span {
 	color: #FFD716;
 	font-weight: bold;
@@ -58,6 +59,13 @@ img[alt="captain picard"] {
 	width: 20rem;
 	margin: 2rem;
 }
+
+/*table of professional skillz*/
+tr {
+	background-color: #282825;
+	color: #343534;
+}
+
 
 
 .container {
