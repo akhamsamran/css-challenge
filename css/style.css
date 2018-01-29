@@ -108,8 +108,31 @@ img[src*="welcome.gif"] {
 /*this is supposed to only affect the image of the instructions-wrapper*/
 .instructions-wrapper > img {
 	float: right;
-	margin-left: 20%
+	margin-left: 20%;
+	width: 250px;
+
 }
+/*img[alt*="janeway"]{
+	width: 250px;
+	height: 150px;
+	justify-self: end;
+}*/.instructions-content{
+display: flex;
+}
+
+/*how Rochelle did it(one version):
+.instructions-content {
+ float: left;
+ width: 50%;
+
+}
+this makes the instructions sit higher/removes top margin
+.instructions-content h2{
+margin-top: 0;
+}
+
+ */
+
 /*about me class (box-sizing keeps text inside of the box)*/
 .about-me {
 	background-color: #1915F7;
