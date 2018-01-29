@@ -94,7 +94,7 @@ h1 > span {
 	border: 3px solid black;
 	padding: 2rem;
 	display: inline-flex;
-	width: 75%;
+	width: 100%;
 	margin: 0 auto;
 	text-align: left;
 }
@@ -111,8 +111,7 @@ h1 > span {
 	text-align: left;
 	padding-top: 2rem;
 	padding-bottom: 2rem;
-	padding-right: 12.5%;
-	padding-left: 20%;
+	padding-left: 10rem;
 }
 /*last line of about me in yellow*/
 span {
@@ -125,8 +124,8 @@ img[alt="captain picard"] {
 	float: left;
 	border: .3rem solid white;
 	width: 20rem;
-	margin-left: 3rem;
-	margin-right: 3rem;
+	margin-left: 2rem;
+	margin-right: 2rem;
 }
 /*aligns content of professional-skillz*/
 .professional-skillz {
@@ -158,5 +157,7 @@ width: 100%;
 .form-wrapper {
 	text-align: left;
 	background-color: #044B04;
-
+}
+.clearfix {
+	clear: both;
 }
