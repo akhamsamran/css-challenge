@@ -95,14 +95,14 @@ h1 > span {
 	display: inline-flex;
 	width: 100%;
 	margin: 0 auto;
-	box-sizing: border-box
+	box-sizing: border-box;
 	text-align: left;
 }
 
 /*this is supposed to only affect the image of the instructions-wrapper*/
 .instructions-wrapper > img {
 	float: right;
-	margin-left: 30%
+	margin-left: 20%
 }
 /*about me class (box-sizing keeps text inside of the box)*/
 .about-me {
@@ -151,7 +151,7 @@ td {
 	padding: 1rem;
 }
 table {
-width: 100%;
+	width: 100%;
 	margin-bottom: 4rem;
 }
 /*for form*/
