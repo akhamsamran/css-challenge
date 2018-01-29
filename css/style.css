@@ -8,7 +8,7 @@
 html, body {
 	margin: 0;
 	box-sizing: border-box;
-	font-family: Consolas;
+	font-family: Courier New, monospace;
 	text-align:center;
 
 }
@@ -88,6 +88,12 @@ h1 > span {
 .welcome {
 	text-align: center;
 }
+/*how Rochelle did it:
+img[src*="welcome.gif"] {
+	disply: block;
+	margin: 0;
+ } */
+
 /*this is a class for the wrapper of the instructions*/
 .instructions-wrapper {
 	border: 3px solid black;
@@ -187,4 +193,9 @@ input[type=text], [type=email], select, textarea {
 /* for the buttons*/
 button {
 	background-color: #00DC00;
+}
+/*footer*/
+footer {
+	background-color: black;
+	color: white;
 }
