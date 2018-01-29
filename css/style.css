@@ -110,7 +110,7 @@ h1 > span {
 	text-align: left;
 	padding-top: 2rem;
 	padding-bottom: 2rem;
-	padding-left: 10rem;
+
 	box-sizing: border-box;
 }
 /*last line of about me in yellow*/
@@ -124,7 +124,6 @@ img[alt="captain picard"] {
 	float: left;
 	border: .3rem solid white;
 	width: 20rem;
-	margin-left: 2rem;
 	margin-right: 2rem;
 }
 /*aligns content of professional-skillz*/
