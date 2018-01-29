@@ -111,6 +111,7 @@ h1 > span {
 	padding-top: 2rem;
 	padding-bottom: 2rem;
 	padding-left: 10rem;
+	box-sizing: border-box;
 }
 /*last line of about me in yellow*/
 span {
@@ -173,7 +174,7 @@ label {
 	padding: 2rem;
 
 }
-/* Style inputs with type="text", select elements and textareas */
+/* Style inputs with type="text", select elements and textareas (https://www.w3schools.com/howto/howto_css_contact_form.asp)*/
 input[type=text], select, textarea {
 	width: 100%; /* Full width */
 	padding: 12px; /* Some padding */
