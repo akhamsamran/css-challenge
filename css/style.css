@@ -73,7 +73,6 @@ header, .contact {
 	display: table;
 	vertical-align: bottom;
 	width: 100%;
-
 	text-align: left;
 }
 /*this is the class ".subtitle" for the sub title in the header*/
@@ -165,4 +164,7 @@ width: 100%;
 
 .contact {
 	padding: 0rem;
+}
+h2 {
+	padding: 1rem;
 }
