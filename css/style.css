@@ -177,9 +177,14 @@ label {
 input[type=text], [type=email], select, textarea {
 	width: 40%;
 	padding: 12px; /* Some padding */
-	border: 1px solid #ccc; /* Gray border */
-	box-sizing: border-box; /* Make sure that padding and width stays in place */
-	margin-top: 6px; /* Add a top margin */
-	margin-bottom: 16px; /* Bottom margin */
-	clear: both;/*this doesn't do anything for some reason-but it should theoretically make the input boxes sit beneath the labels???*/
+border: 1px solid #ccc; /* Gray border */
+box-sizing: border-box; /* Make sure that padding and width stays in place */
+margin-top: 6px; /* Add a top margin */
+margin-bottom: 16px; /* Bottom margin */
+clear: both;/*this doesn't do anything for some reason-but it should theoretically make the input boxes sit beneath the labels???*/
+}
+/* for the buttons*/
+button {
+	background-color: #00DC00;
+	margin: 2rem;
 }
