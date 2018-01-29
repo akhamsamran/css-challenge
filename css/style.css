@@ -172,16 +172,14 @@ h2 {
 }
 label {
 	padding: 2rem;
-
 }
 /* Style inputs with type="text", select elements and textareas (https://www.w3schools.com/howto/howto_css_contact_form.asp)*/
-input[type=text], select, textarea {
-	width: 100%; /* Full width */
+input[type=text], [type=email], select, textarea {
+	width: 40%;
 	padding: 12px; /* Some padding */
 	border: 1px solid #ccc; /* Gray border */
-	border-radius: 4px; /* Rounded borders */
 	box-sizing: border-box; /* Make sure that padding and width stays in place */
 	margin-top: 6px; /* Add a top margin */
 	margin-bottom: 16px; /* Bottom margin */
-	resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+	clear: both;/*this doesn't do anything for some reason-but it should theoretically make the input boxes sit beneath the labels???*/
 }
