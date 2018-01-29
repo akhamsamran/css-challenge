@@ -171,4 +171,9 @@ h2 {
 }
 label {
 	padding: 2rem;
+
+}
+input {
+	padding: 2rem;
+	clear: both;
 }
