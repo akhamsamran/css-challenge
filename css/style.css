@@ -98,7 +98,7 @@ img[src*="welcome.gif"] {
 .instructions-wrapper {
 	border: 3px solid black;
 	padding: 2rem;
-	display: inline-flex;
+	display: block;
 	width: 100%;
 	margin: 0 auto;
 	box-sizing: border-box;
