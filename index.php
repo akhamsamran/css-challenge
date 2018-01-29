@@ -102,7 +102,7 @@
 							</div>
 
 							<div>
-								<a><label for="subject">Subject</label></a>
+								<label for="subject">Subject</label>
 								<input type="text" name="subject" id="subject" />
 							</div>
 

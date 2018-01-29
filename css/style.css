@@ -172,7 +172,7 @@ h2 {
 
 }
 label {
-
+clear: both;
 }
 /* Style inputs with type="text", select elements and textareas (https://www.w3schools.com/howto/howto_css_contact_form.asp)*/
 input[type=text], [type=email], select, textarea {
