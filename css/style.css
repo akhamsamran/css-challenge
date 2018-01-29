@@ -158,6 +158,7 @@ width: 100%;
 	text-align: left;
 	background-color: #044B04;
 	width: 100%;
+	padding: 2rem;
 
 }
 .clearfix {
@@ -168,23 +169,22 @@ width: 100%;
 	padding: 0rem;
 }
 h2 {
-	padding: 2rem;
+
 }
 label {
-	padding: 2rem;
+
 }
 /* Style inputs with type="text", select elements and textareas (https://www.w3schools.com/howto/howto_css_contact_form.asp)*/
 input[type=text], [type=email], select, textarea {
 	width: 40%;
-	padding: 12px; /* Some padding */
-border: 1px solid #ccc; /* Gray border */
-box-sizing: border-box; /* Make sure that padding and width stays in place */
-margin-top: 6px; /* Add a top margin */
-margin-bottom: 16px; /* Bottom margin */
-clear: both;/*this doesn't do anything for some reason-but it should theoretically make the input boxes sit beneath the labels???*/
+	padding: .1rem; /* Some padding */
+	border: 1px solid #ccc; /* Gray border */
+	box-sizing: border-box; /* Make sure that padding and width stays in place */
+	margin-top: 1rem; /* Add a top margin */
+	margin-bottom: 1rem; /* Bottom margin */
+	clear: both;/*this doesn't do anything for some reason-but it should theoretically make the input boxes sit beneath the labels???*/
 }
 /* for the buttons*/
 button {
 	background-color: #00DC00;
-	margin: 2rem;
 }
