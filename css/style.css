@@ -157,6 +157,7 @@ width: 100%;
 	text-align: left;
 	background-color: #044B04;
 	width: 100%;
+
 }
 .clearfix {
 	clear: both;
@@ -166,5 +167,8 @@ width: 100%;
 	padding: 0rem;
 }
 h2 {
-	padding: 1rem;
+	padding: 2rem;
+}
+label {
+	padding: 2rem;
 }
