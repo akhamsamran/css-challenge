@@ -98,12 +98,11 @@ h1 > span {
 	box-sizing: border-box
 	text-align: left;
 }
-ol {
 
-}
 /*this is supposed to only affect the image of the instructions-wrapper*/
 .instructions-wrapper > img {
 	float: right;
+	margin-left: 30%
 }
 /*about me class (box-sizing keeps text inside of the box)*/
 .about-me {
