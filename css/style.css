@@ -73,7 +73,7 @@ header, .contact {
 	display: table;
 	vertical-align: bottom;
 	width: 100%;
-	padding-left: 10%;
+
 	text-align: left;
 }
 /*this is the class ".subtitle" for the sub title in the header*/
@@ -157,7 +157,12 @@ width: 100%;
 .form-wrapper {
 	text-align: left;
 	background-color: #044B04;
+	width: 100%;
 }
 .clearfix {
 	clear: both;
+}
+
+.contact {
+	padding: 0rem;
 }
